@@ -1,7 +1,7 @@
 // Import data
 
 // Import components
-import './App.css';
+import './App.css'
 
 function App(){
   return (
@@ -11,7 +11,7 @@ function App(){
         {/* Your content will go here! */}
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
