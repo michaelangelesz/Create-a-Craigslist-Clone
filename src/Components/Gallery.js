@@ -1,7 +1,15 @@
-import React from "react"
+import Posting from "./Posting"
 
 function Gallery() {
-  return <h1>Gallery</h1>
+  return (
+    <div className="gallery">
+      <h1>Gallery</h1>
+      <Posting />
+      <Posting />
+      <Posting />
+      <Posting />
+    </div>
+  )
 }
 
 export default Gallery

@@ -1,4 +1,5 @@
 .App {
+  font-family: Papyrus, sans-serif;
   margin: 0;
   display: grid;
   grid-template-rows: 80px 70px 4fr 4fr;
@@ -17,16 +18,19 @@ img {
 .directory {
   grid-area: directory;
   border: 1px solid black;
+  margin: 1vw;
 }
 
 .gallery {
   grid-area: gallery;
   border: 1px solid black;
+  margin: 1vw;
 }
 
 .help {
   grid-area: help;
   border: 1px solid black;
+  margin: 1vw;
 }
 
 .posting {
@@ -39,12 +43,13 @@ img {
 }
 
 .searchbar {
-  font-size: 5vh;
   grid-area: searchbar;
   border: 1px solid black;
+  margin: 1vw;
 }
 
-.sideBar {
+.sidebar {
   grid-area: sidebar;
   border: 1px solid black;
+  margin: 1vw;
 }
