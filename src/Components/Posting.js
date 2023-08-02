@@ -1,7 +1,9 @@
-function Posting() {
+function Posting(props) {
   return (
     <div className="posting">
-      <h1>Posting</h1>
+      <h1>{props.posting.title}</h1>
+      <p>{props.posting.description}</p>
+      <img src={props.posting.imageURL} alt={props.posting.title} />
     </div>
   )
 }

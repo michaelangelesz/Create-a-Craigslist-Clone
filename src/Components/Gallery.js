@@ -1,13 +1,11 @@
 import Posting from "./Posting"
 
-function Gallery() {
+function Gallery(props) {
   return (
     <div className="gallery">
-      <h1>Gallery</h1>
-      <Posting />
-      <Posting />
-      <Posting />
-      <Posting />
+      {props.postings.map((p, i) => {
+        return <Posting posting={p} key={i} />
+      })}
     </div>
   )
 }
