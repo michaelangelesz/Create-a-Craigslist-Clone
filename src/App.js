@@ -2,6 +2,7 @@
 
 // Import components
 import './App.css'
+import Gallery from './Components/Gallery'
 
 function App(){
   return (
@@ -10,6 +11,7 @@ function App(){
       <div className="App">
         {/* Your content will go here! */}
       </div>
+      <Gallery />
     </div>
   )
 }
